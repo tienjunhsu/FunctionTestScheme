@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dip">
+   <GridView
+         android:id="@+id/gridview"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:numColumns="3"
+         android:verticalSpacing="10dip"
+         android:horizontalSpacing="10dip"
+         android:gravity="center"
+         />
+  <Button
+            android:id="@+id/bt_cancle_share"
+            style="@style/button_submit"
+            android:background="@drawable/xml_bt_blue"
+            android:layout_margin="10dp"
+            android:text="取 消" />
+</LinearLayout>
+

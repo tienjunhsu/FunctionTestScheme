@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="20dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_marginRight="10dp"
+        android:drawablePadding="10dp"
+        android:gravity="center_horizontal"
+        android:drawableTop="@drawable/logo_qq"
+        android:id="@+id/tv_qq"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="QQ" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:drawablePadding="10dp"
+        android:gravity="center_horizontal"
+        android:drawableTop="@drawable/logo_sinaweibo"
+        android:id="@+id/tv_sina"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="新浪微博" />
+    
+   <TextView
+        android:layout_marginRight="10dp"
+        android:drawablePadding="10dp"
+        android:gravity="center_horizontal"
+        android:drawableTop="@drawable/logo_wechat"
+        android:id="@+id/tv_wechat"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="微信" />
+
+</LinearLayout>
